@@ -34,8 +34,7 @@ One hanging end of this project is creating a cost-effective device to collect f
 
 Overall, by incorporating data from existing studies, creating cost-effective data-collecting devices, exploring the use of biomarkers, and following HIPAA compliance guidelines, it is possible to increase the affordability and efficiency of medical models. These efforts can ultimately improve patient outcomes in LMICs and decrease the disparity in access to high-quality medical care.
 
-**Conclusion:**
-
+**Conclusion:** 
 In this project, multiple transfer learning architectures were analyzed: VGG16, VGG19, ResNet50, Inception v3, and ResNet50. It was deduced that VGG16 has the best viability in diagnosing RB with a 0.9890 DSC and 0.9787 IoU value. VGG19 was a close runner-up with a 0.9885 DSC and a 0.9786 IoU value. Inception v3 had a 0.9663 DSC and 0.9374 IoU value, with Xception being a close runner-up to that model with DSC and IoU values of 0.9647 and 0.9371, respectively. Finally, ResNet50 performed the worst with a 0.8400 DSC and 0.7052 IoU value.
 
 SHAP was applied to VGG16 and were able to gain better insight into which contours of the image caused the diagnosis that the model gave for a single image. Since VGG19 was a close runner-up, SHAP and LIME were also run on the results of that model for a single image and the model was able to produce interesting visuals making it easier to understand how the model viewed the image that was inputted.
