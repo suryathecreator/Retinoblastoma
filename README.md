@@ -1,4 +1,4 @@
-# Retinoblastoma
+# Eye See You, Cancer.
 Research Project 06/2022-03/2023: Retinoblastoma Detection via Image Processing and Explainable AI.
 
 **Abstract:**
