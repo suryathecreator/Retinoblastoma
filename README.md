@@ -1,6 +1,8 @@
 # Eye See You, Cancer.
 Research Project 06/2022-03/2023: Retinoblastoma Detection via Image Processing and Explainable AI.
 
+Co-contributors: Dr. Adamou Fode Made, Aditya Narayan, Vishak Srikanth
+
 **Abstract:**
 Retinoblastoma (RB) is a treatable ocular melanoma that is diagnosed early and subsequently cured in the United States but has a poor prognosis in low- and middle-income countries. This study hopes to streamline the process of diagnosing RB in LMICs. Transfer learning methods were utilized to detect RB from fundus imaging. 140 RB+ and 140 RB- images were acquired. Then, five models were used: VGG16, VGG19, Xception, Inception v3, and ResNet50 to train them on the dataset. To evaluate these models, there were two metrics used that are considered excellent for medical-image classification: Dice Similarity Coefficient (DSC) and Intersection-over-Union (IoU). Explainable AI techniques such as SHAP and LIME were implemented into VGG16 and VGG19 to increase the transparency of their decision-making frameworks, which is critical for the use of AI in medicine. Finally, diagnostic biomarkers were explored for their feasibility in improving the models. VGG16 was the best at identifying RB with a 0.9890 DSC and 0.9787 IoU value. VGG19 was a close runner-up with a 0.9885 DSC and a 0.9786 IoU value. Inception v3 had a 0.9663 DSC and 0.9374 IoU value, with Xception having DSC and IoU values of 0.9647 and 0.9371 respectively. ResNet50 performed the worst with a 0.8400 DSC and 0.7052 IoU value. SHAP values typically ranged from -0.06 to 0.10. Transfer learning methods were effective at identifying RB, and explainable AI made the models more viable for clinical settings.
 
